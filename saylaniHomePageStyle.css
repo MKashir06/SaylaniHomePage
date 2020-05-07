@@ -1,0 +1,466 @@
+@font-face {
+    font-family: Merriweather-Italic;
+    src: url("../Fonts/Merriweather/Merriweather-Italic.ttf");
+}
+
+@font-face {
+    font-family: Merriweather-Italic;
+    src: url("../Fonts/Merriweather/Merriweather-Bold.ttf");
+}
+
+.navbar-dark {
+    background-color: #316dc3;
+}
+
+.fa {
+    color: white;
+    font-size: 14px;
+}
+
+.navbar-dark p {
+    color: #ffffff;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: -2px;
+}
+
+.navbar-dark ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: -2px;
+}
+
+.navBtn {
+    height: 30px;
+    width: 150px;
+    font-size: 11px;
+}
+
+.navBtn button {
+    padding: 3px 7px 3px 7px;
+    color: #687f78;
+}
+
+
+/* @media only screen and (min-width: 765px) {
+    .navbar-toggler-icon {
+        float: right;
+        display: inline-block;
+        width: 1.5em;
+        height: 1.5em;
+        vertical-align: middle;
+        content: "";
+        background: no-repeat center center;
+        background-size: 100% 100%;
+    }
+} */
+
+.sticky-top {
+    background-color: #f7f8fa;
+}
+
+.navImg {
+    margin-left: 50px;
+}
+
+.navbar-nav {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.navMenu {
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.active {
+    background-color: #316dc3;
+    color: #ffffff !important;
+    border-radius: 20px;
+}
+
+.imgSlider {
+    width: 100%;
+}
+
+.news {
+    background-color: #316dc3;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 1% 7% 5% 7%;
+    height: 30px;
+    text-align: center;
+}
+
+.newsColor {
+    color: #0ed637;
+}
+
+.moreDetails {
+    color: #0313ff;
+}
+
+.blue {
+    font-family: serif;
+    font-weight: bold;
+    color: #316dc3;
+}
+
+.green {
+    font-family: serif;
+    font-weight: bold;
+    color: #427900;
+}
+
+.sIcon {
+    position: relative;
+    margin: 0 auto;
+    max-width: 150px;
+}
+
+.sIcon::before {
+    content: "";
+    height: 2px;
+    position: absolute;
+    right: 10px;
+    top: 30px;
+    width: 36px;
+    background-color: #427900;
+    box-sizing: border-box;
+}
+
+.sIcon::after {
+    content: "";
+    height: 2px;
+    position: absolute;
+    left: 10px;
+    top: 30px;
+    width: 36px;
+    background-color: #427900;
+}
+
+.favicon {
+    height: 40px;
+}
+
+.introPara {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.introPara p {
+    text-align: justify;
+    font-size: 15px;
+    color: #7f7f7f;
+    margin: 1.5% 14% 7% 14%;
+    line-height: 1.6em;
+}
+
+.saylaniAverageRate {
+    background-color: #2755e9;
+    text-align: center;
+    padding: 6% 5% 0% 5%;
+}
+
+.rateAdjust {
+    margin-bottom: -15%;
+}
+
+.saylaniAverageRateIcon {
+    height: 11.5%;
+}
+
+.count {
+    color: #ffffff;
+    font-family: Merriweather-Italic, serif;
+    font-size: 300%;
+    font-weight: 500;
+    position: relative;
+}
+
+.saylaniAverageRateDetail {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 80%;
+    font-family: Merriweather-Bold, serif;
+}
+
+.monthly {
+    color: #00ff00;
+    font-size: 120%;
+}
+
+.doing {
+    margin-top: 5%;
+    background-color: #f7f8fa;
+}
+
+.questionMark {
+    font-size: 1.2em;
+}
+
+.boxesTop {
+    margin-top: 3%;
+    margin-right: 7% !important;
+    margin-left: 7% !important;
+}
+
+.boxesTop div a {
+    text-decoration: none;
+}
+
+.boxes {
+    background-color: #ffffff;
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 30px;
+    box-shadow: 0px 8px 20px 0px #00000029;
+}
+
+.boxesImage {
+    vertical-align: middle;
+    max-width: 100%;
+    width: 25%;
+}
+
+.boxesText {
+    font-family: Merriweather-Bold, serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 3em;
+    color: #316DC3;
+}
+
+.missions {
+    font-family: Merriweather-Bold, serif;
+    margin-top: 5%;
+}
+
+.content {
+    margin-top: 5%;
+}
+
+.missionHeading {
+    color: #316DC3;
+    font-size: 140%;
+    font-weight: 600;
+    position: relative;
+    margin-bottom: 5%;
+    padding-bottom: 1.5%;
+}
+
+.missionHeading::after {
+    content: "";
+    bottom: -1px;
+    height: 2px;
+    left: 0px;
+    position: absolute;
+    width: 50px;
+    background-color: #427900;
+}
+
+.mission-boxes {
+    text-align: left;
+    margin: 0px 0px 20px 0px;
+    background-color: #f7f8fa;
+    margin: 0px 28px 18px -50px;
+    padding: 15px;
+    border: 1px solid #f7f8fa;
+}
+
+.boxes1-3 {
+    margin-right: 11%;
+}
+
+.missionImage {
+    float: left;
+    margin-right: 30px;
+    padding-right: 10px;
+}
+
+.missionText {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 600;
+    color: #316DC3;
+}
+
+.upcomingMarquee {
+    height: 200px;
+    width: 250px;
+    font-size: 17px;
+    color: #948c8c;
+}
+
+.gallery {
+    padding: 60px 0px 40px 0px;
+}
+
+.galleryContent {
+    padding: 0px 15px 0px 15px;
+    margin: 0 auto;
+}
+
+.imageGallery {
+    margin-bottom: 5%;
+}
+
+.imageTable {
+    margin: -2% 8% 10% 8%;
+}
+
+.imageTableCenter {
+    margin: 0% -5% 0% 5% !important;
+}
+
+.imageDisplay {
+    height: 100%;
+    width: 118%;
+    margin-bottom: 10%;
+}
+
+.footer {
+    background-color: #25272e;
+}
+
+.footerContainer {
+    padding: 0px 15px 0px 15px;
+    margin: 0 auto;
+}
+
+.footerBorder {
+    border-bottom: 1px solid #000000;
+    padding: 6% 2% 3% 7%;
+}
+
+.footerText {
+    margin-bottom: 30px;
+    color: #c3bebe;
+    font-size: 73%;
+}
+
+.footerText p {
+    line-height: 65%;
+    margin: 12% 0% -12% 0%;
+}
+
+.contact-us {
+    margin-left: -35px;
+    list-style: none;
+    line-height: 190%;
+}
+
+.contact-us i {
+    color: green;
+    font-size: 85%;
+    margin-right: 2% !important;
+}
+
+.contact-us i.globe {
+    display: inline;
+}
+
+.footerLink {
+    margin: 0px 0px 20px 0px;
+    color: #ffffff;
+    font-family: Merriweather-Bold, serif;
+    font-size: 120%;
+    font-weight: 600;
+    position: relative;
+    border-bottom: 1px solid #444444;
+    margin-bottom: 5%;
+    padding-bottom: 2.5%;
+}
+
+.footerLink::after {
+    content: "";
+    bottom: -1px;
+    height: 2px;
+    left: 0px;
+    position: absolute;
+    width: 50px;
+    background-color: #427900;
+}
+
+.footerSocialHeading {
+    margin: 0px 0px 20px 0px;
+    color: #ffffff;
+    font-family: Merriweather-Bold, serif;
+    font-size: 120%;
+    font-weight: 600;
+    position: relative;
+}
+
+.footerSocials {
+    list-style: none;
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+}
+
+.footerSocials li {
+    background-color: #316dc3;
+    width: 30px;
+    font-size: 15px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 100%;
+    margin: 0px 10px 0px 0px;
+    cursor: pointer;
+}
+
+.footerCopyright {
+    background-color: #316DD9;
+}
+
+.alignBottom {
+    margin-right: 0px !important;
+}
+
+.copyright {
+    color: #ffffff;
+    font-size: 12px;
+    margin: 2% 0% 2% 0%;
+}
+
+.goTop {
+    display: inline-block;
+    background-color: #0000001a;
+    bottom: 3.5%;
+    right: 1%;
+    position: fixed;
+    z-index: 1;
+    padding: 0.5%;
+    height: 50px;
+    text-align: center;
+    width: 4%;
+}
+
+.goTop:hover {
+    background-color: #00000099;
+}
+
+@media only screen and (max-width: 769px) {
+    .goTop {
+        right: 4%;
+        width: 12%;
+        bottom: 0.8%;
+        display: inline-block;
+        background-color: #0000001a;
+        position: fixed;
+        z-index: 1;
+        padding: 0.5%;
+        height: 50px;
+        text-align: center;
+    }
+}
+
+.goTop i {
+    color: #ffffff;
+    font-size: 30px;
+}
